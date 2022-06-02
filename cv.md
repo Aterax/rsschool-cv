@@ -5,20 +5,21 @@
 * **E-mail:** [prockaandrei@gmail.com](prockaandrei@gmail.com)
 * **Telegram:** [https://t.me/protska_andrei](@protska_andrei)
 
-# Summary
+# About Me
+I am a beginner web developer, interested in developing web applications and web services.
 
 # Skills
-
 * HTML,CSS
-* JavaScript Fundamentals
-* Version control: Git
-* Python(Fundamentals, Functional Programming) - Django Framework( basic knowledge), SQLite(basic knowledge).
-* Windows OS, Linux
+* JavaScript(Fundamentals, Functional Programming)
+* Version control: GitHub, GitLab
+* Python(Fundamentals, Functional Programming, OOP) - Django Framework(basic knowledge), SQLite(basic knowledge), PostgreSQL(basic knowledge).
+* Windows, Linux
 * Editors: PyCharm community, VSCode, Vim.
 
 ### Code examples Python
 **Task:** Print the specified list and possible subscriptions, including the empty list.
-```line = input().split()
+```
+line = input().split()
 length_line = len(line)
 result_list = [[]]
 
@@ -31,8 +32,15 @@ while length_line != 0:
 print(result_list)
 ```
 
-# 
-# Code examples JavaScript
+### Code examples JavaScript
+**Task:** Write simple .camelCase method (camel_case function in PHP, CamelCase in C# or camelCase in Java) for strings. All words must have their first letter capitalized without spaces.
+```
+String.prototype.camelCase=function(){
+   return this.split(' ').map(function(word){
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }).join('');
+}
+```
 
 # Education
 * **Stepik:** Basics of Python programming in examples and tasks [cert](https://stepik.org/cert/1154382)
@@ -40,9 +48,6 @@ print(result_list)
 * **Stepik:** Python Programming [cert](https://stepik.org/cert/1410141)
 
 # Languages
-
 - Russian
 - Belarusian
-## English 
--  [EPAM English test result](https://examinator.epam.com/Main/PersonalAssignments): **A1**
-I try to learn English in every possible way. I use application in smartphone:  Duolingo and I use google translate a lot. 
+- English **A1** ([EPAM English test result](https://examinator.epam.com/Main/PersonalAssignments))
