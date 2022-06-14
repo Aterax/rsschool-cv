@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS School - CV</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="page">
+  <main>
+    <div class="top-bar">
+      <div class="caps name">Andrei Protska</div>
+    </div>
+
+    <aside class="side-bar">
+      <div class="photo">
+        <img src="./images/photo.jpg" alt="Photo" width="350">
+      </div>
+
+      <div>
+        <p class="side-header caps">Contact</p>
+        <p class="social">
+          <img src="./icons/telephone-fill.svg" alt="Phone">
+          <a href="tel:+375(25)507-66-35">+375(25)507-66-35</a>
+        </p>
+        <p class="social">
+          <img src="./icons/telegram.svg" alt="Telegram">
+          <a href="https://t.me/protska_andrei">@protska_andrei</a>
+        </p>
+        <p class="social">
+          <img src="./icons/envelope-fill.svg" alt="Email">
+          <a href="mailto:prockaandrei@mail.ru">prockaandrei</a>
+        </p>
+      </div>
+
+      <div>
+        <p class="side-header caps">Skills</p>
+        <p class="list-thing">Python, JavaScript</p>
+        <p class="list-thing">HTML, CSS</p>
+        <p class="list-thing">PyCharm, VS Code, Vim</p>
+        <p class="list-thing">Linux, Windows</p>
+        <p class="list-thing">Git</p>
+      </div>
+
+      <div>
+        <p class="side-header caps">Languages</p>
+        <ul>
+          <li>Russian (Native)</li>
+          <li>English (Elementary)</li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="content-container">
+      <h2 class="caps title">Junior Front-end Developer</h2>
+      <div class="separator"></div>
+      <p class="caps greyed">Profile</p>
+      <p class="content-text">
+        Let me introduce myself. My name is Andrei.
+        I am from Belarus, and I work as Phone Repair Technician, currently retraining as a web developer.
+        I want to get an internship in a big company, and later stay to work in it.
+      </p>
+      <p class="caps greyed">Work Experience</p>
+      <div class="content-text job">
+        <h2>Freelance</h2>
+        <h3>Phone Repair Technician</h3>
+        <h4 class="wapper_date">Present</h4>
+        <ul>
+          <li>Diagnose problems and come up with solutions to repair them.</li>
+        </ul>
+      </div>
+      <div class="content-text job">
+        <h2>Service center "MakSet"</h2>
+        <h3>Phone Repair Technician</h3>
+        <h4 class="wapper_date">2017 - 2020</h4>
+        <ul>
+          <li>Perform maintenance and provide customer support.</li>
+          <li>Diagnose problems and come up with solutions to repair them.</li>
+          <li>Order parts needed for repairs if needed.</li>
+        </ul>
+      </div>
+      <p class="caps greyed">Education & Courses</p>
+      <p class="content-text"><strong>Stepik:</strong> Basics of Python programming in examples and tasks <a
+          href="https://stepik.org/cert/1154382"> <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+      <p class="content-text"><strong>Stepik:</strong> "Python Generation": a course for beginners <a
+          href="https://stepik.org/cert/1318773"> <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+      <p class="content-text"><strong>Stepik:</strong> "Python Generation": a course for advanced <a
+          href="https://stepik.org/cert/1481178"> <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+      <p class="content-text"><strong>Stepik:</strong> "Python Generation": programming contests <a
+          href="https://stepik.org/cert/1540062"> <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+      <p class="content-text"><strong>Stepik:</strong> Python Programming <a href="https://stepik.org/cert/1410141">
+          <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+      <p class="content-text"><strong>Stepik:</strong> Introduction to Linux <a href="https://stepik.org/cert/1358244">
+          <img src="./icons/link.png" alt="cert" width="12" height="12"></a></p>
+    </div>
+    <p class="caps content-container greyed">Code Excample</p>
+    <div class="content-container">
+      <p class="content-text"><strong>Task:</strong> Write simple .camelCase method (camel_case function in PHP,
+        CamelCase in C# or camelCase in Java) for strings. All words must have their first letter capitalized without
+        spaces.</p>
+      <pre class="code">
+        <code>
+          String.prototype.camelCase=function(){
+            return this.split(' ').map(function(word){
+             return word.charAt(0).toUpperCase() + word.slice(1);
+           }).join('');
+         }       
+        </code>
+      </pre>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <a href="https://github.com/Aterax">
+      <img src="./icons/github.svg" alt="Github" width="26" height="26">
+    </a>
+    <a href="https://rs.school/js/">
+      <img src="./images/rs_school_js.svg" alt="RS School" width="73" height="26">
+    </a>
+  </footer>
+
+</body>
+
+</html>
